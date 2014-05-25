@@ -9,13 +9,13 @@ class UserSeeder extends DatabaseSeeder
 {
     public function run()
     {
-        $users = [
-            [
+        $users = array(
+            array(
                 "username" => "Barnabas Jomo",
                 "password" => Hash::make("195960c23"),
                 "email" => "brnbsjm@gmail.com"
-            ]
-        ];
+            )
+        );
 
         foreach ($users as $user)
         {
