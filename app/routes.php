@@ -18,7 +18,7 @@ Route::get('/', function()
 });
 */
 
-Route::any("/", array(
+Route::any('/', array(
     "as" => "user/login",
     "uses" => "UserController@loginAction"
 ));
